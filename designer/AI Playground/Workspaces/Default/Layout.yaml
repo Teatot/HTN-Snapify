@@ -47,8 +47,8 @@ dock:
       type: splitter
       orientation: horizontal
       geometry:
-        x: 393
-        y: 364
+        x: 637
+        y: 448
         w: 681
-        h: 372
+        h: 336
       screen: Built-in Retina Display

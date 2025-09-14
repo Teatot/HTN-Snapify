@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 736
+    size: 756
     values:
       - ""
       - Image 2.mat
@@ -52,8 +52,28 @@ CollapsedEntities:
       - Model/cozy_sofa/Textures
       - Model/cozy_sofa/Textures/texture.png
       - Model/cozy_sofa/cozy_sofa.prefab
+      - Model/cozy_table
+      - Model/cozy_table/.hidden
+      - Model/cozy_table/.hidden/Material 1.ss_graph
+      - Model/cozy_table/Materials/Material 1.mat
+      - Model/cozy_table/Meshes
+      - Model/cozy_table/Meshes/geometry_0.mesh
+      - Model/cozy_table/Textures
+      - Model/cozy_table/Textures/texture.png
+      - Model/cozy_table/cozy_table.prefab
+      - Model/gothic_chair
+      - Model/gothic_chair/.hidden
+      - Model/gothic_chair/.hidden/Material 1.ss_graph
+      - Model/gothic_chair/Materials/Material 1.mat
+      - Model/gothic_chair/Meshes
+      - Model/gothic_chair/Meshes/geometry_0.mesh
+      - Model/gothic_chair/Textures
+      - Model/gothic_chair/Textures/texture.png
+      - Model/gothic_chair/gothic_chair.prefab
       - Prefab/cozy_cabinet.prefab
       - Prefab/cozy_sofa.prefab
+      - Prefab/cozy_table.prefab
+      - Prefab/gothic_chair.prefab
       - Remote Service Gateway.lspkg/Helpers
       - Remote Service Gateway.lspkg/Helpers/AudioProcessor.ts
       - Remote Service Gateway.lspkg/Helpers/DynamicAudioOutput.ts
