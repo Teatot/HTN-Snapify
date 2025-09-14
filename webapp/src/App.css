@@ -1,0 +1,33 @@
+/* App-specific styles can go here if needed */
+@keyframes rotate360 {
+  0% { transform: rotate(0deg); }
+  35% { transform: rotate(360deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loading-rotate {
+  animation: rotate360 1s linear infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1 }
+  25%, 75% { opacity: 0 }
+}
+
+.typing-animation {
+  display: inline-block;
+  overflow: hidden;           /* hide the text as it types */
+  white-space: nowrap;        /* prevent line breaks */
+  border-right: 2px solid transparent; /* fallback for caret space */
+  animation: typing 2s steps(30, end) forwards;
+}
+
+/* blinking caret after typing completes */
+.typing-animation::after {
+  animation: blink 2s step-start infinite;
+}
