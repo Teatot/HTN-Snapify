@@ -1,0 +1,7 @@
+ExternalSources:
+  type: "std::map<Es::Uuid, Es::Path>"
+  value:
+    - 14558417-107e-4342-80ed-5fd0af65e431: /Applications/Lens Studio.app/Contents/JsPlugins/PresetsRegistry/Assets/Script/Resources/Untitled JavaScript.js
+    - 21da0ab9-8759-4aef-8462-6e59e3b28c0f: /Applications/Lens Studio.app/Contents/JsPlugins/PresetsRegistry/Assets/Script/Resources/Untitled JavaScript.js
+    - 7cdf675c-1635-4961-9737-fc4e570648c1: /Applications/Lens Studio.app/Contents/JsPlugins/PresetsRegistry/Assets/Script/Resources/Untitled JavaScript.js
+  options: 4
