@@ -1,0 +1,45 @@
+- !<AssetImportMetadata/21ac9da2-b284-4c17-a830-3e7d382c2c45>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 9fc7ecd0-6761-456e-b625-e2e73f159b23
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 9fc7ecd0-6761-456e-b625-e2e73f159b23
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> ff137587-a8fb-4e17-a3b6-c0af36a46b28
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/ff137587-a8fb-4e17-a3b6-c0af36a46b28>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 2c363975-82b3-4761-b684-c1c1f7b5ddc6
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    image: false
+    spinner: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - image: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      spinner: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - // @input Component.Image image
+    - // @input SceneObject spinner
