@@ -1,0 +1,140 @@
+- !<Material/1157b0b6-bd33-41e9-ae37-911c7fbc4c9d>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 079fc210-0e7b-4161-89ea-8955ab7c6269
+- !<PassInfo/079fc210-0e7b-4161-89ea-8955ab7c6269>
+  CachedProperties:
+    - Port_AO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_Albedo_N405:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_DebugSheenEnvLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_DebugSheenPunctualLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Emissive_N405:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_GSplatRotation_N004:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    - Port_GSplatScale_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_Input2_N043:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N062:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Metallic_N405:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Opacity_N405:
+        typeIdx: 1
+        value: 1.000000
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_SpecularAO_N036:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_SpecularAO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - alpha:
+        typeIdx: 1
+        value: 0.000000
+    - baseColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - emissiveFactor:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - mainColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - metallicFactor:
+        typeIdx: 1
+        value: 1.000000
+    - roughnessFactor:
+        typeIdx: 1
+        value: 1.000000
+    - selfIllum:
+        typeIdx: 1
+        value: 0.000000
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_BASE_TEX
+    - baseColorTextureUV 0
+    - NODE_10_DROPLIST_ITEM 0
+    - NODE_11_DROPLIST_ITEM 0
+    - NODE_7_DROPLIST_ITEM 0
+    - NODE_8_DROPLIST_ITEM 0
+    - Tweak_N30 0
+    - Tweak_N32 0
+    - Tweak_N37 0
+    - Tweak_N44 0
+    - Tweak_N47 0
+    - Tweak_N60 0
+  BlendMode: Disabled
+  Properties:
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColorFactor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseColorTexture:
+      typeIdx: 9
+      value:
+        id: c5a8a079-034a-40ee-a8d6-e0dd7db38de3
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: true
+        type: Texture2D
+  Pass: !<reference> 88feeafd-228c-4bd4-8e08-51771a019ab2

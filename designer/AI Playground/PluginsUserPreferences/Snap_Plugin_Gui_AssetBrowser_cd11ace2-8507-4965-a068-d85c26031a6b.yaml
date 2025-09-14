@@ -1,8 +1,9 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 803
+    size: 736
     values:
+      - ""
       - Image 2.mat
       - Image.mat
       - Internet Module.internetModule
@@ -32,14 +33,17 @@ CollapsedEntities:
       - LSTween.lspkg/TweenJS/mainGroup.ts
       - LSTween.lspkg/package.native
       - Material.mat
+      - Model/cozy_cabinet
       - Model/cozy_cabinet/.hidden
       - Model/cozy_cabinet/.hidden/Material 1.ss_graph
+      - Model/cozy_cabinet/Materials
       - Model/cozy_cabinet/Materials/Material 1.mat
       - Model/cozy_cabinet/Meshes
       - Model/cozy_cabinet/Meshes/geometry_0.mesh
       - Model/cozy_cabinet/Textures
       - Model/cozy_cabinet/Textures/texture.png
       - Model/cozy_cabinet/cozy_cabinet.prefab
+      - Model/cozy_sofa
       - Model/cozy_sofa/.hidden
       - Model/cozy_sofa/.hidden/Material 1.ss_graph
       - Model/cozy_sofa/Materials/Material 1.mat
@@ -48,72 +52,8 @@ CollapsedEntities:
       - Model/cozy_sofa/Textures
       - Model/cozy_sofa/Textures/texture.png
       - Model/cozy_sofa/cozy_sofa.prefab
-      - Model/cozy_table/.hidden
-      - Model/cozy_table/.hidden/Material 1.ss_graph
-      - Model/cozy_table/Materials
-      - Model/cozy_table/Materials/Material 1.mat
-      - Model/cozy_table/Meshes
-      - Model/cozy_table/Meshes/geometry_0.mesh
-      - Model/cozy_table/Textures
-      - Model/cozy_table/Textures/texture.png
-      - Model/cozy_table/cozy_table.prefab
-      - Model/gothic_chair/.hidden
-      - Model/gothic_chair/.hidden/Material 1.ss_graph
-      - Model/gothic_chair/Materials/Material 1.mat
-      - Model/gothic_chair/Meshes
-      - Model/gothic_chair/Meshes/geometry_0.mesh
-      - Model/gothic_chair/Textures
-      - Model/gothic_chair/Textures/texture.png
-      - Model/gothic_chair/gothic_chair.prefab
-      - Model/gothic_lamp/.hidden
-      - Model/gothic_lamp/.hidden/Material 1.ss_graph
-      - Model/gothic_lamp/Materials/Material 1.mat
-      - Model/gothic_lamp/Meshes
-      - Model/gothic_lamp/Meshes/geometry_0.mesh
-      - Model/gothic_lamp/Textures
-      - Model/gothic_lamp/Textures/texture.png
-      - Model/gothic_lamp/gothic_lamp.prefab
-      - Model/gothic_table/.hidden
-      - Model/gothic_table/.hidden/Material 1.ss_graph
-      - Model/gothic_table/Materials/Material 1.mat
-      - Model/gothic_table/Meshes
-      - Model/gothic_table/Meshes/geometry_0.mesh
-      - Model/gothic_table/Textures
-      - Model/gothic_table/Textures/texture.png
-      - Model/gothic_table/gothic_table.prefab
-      - Model/modern_chair/.hidden
-      - Model/modern_chair/.hidden/Material 1.ss_graph
-      - Model/modern_chair/Materials/Material 1.mat
-      - Model/modern_chair/Meshes
-      - Model/modern_chair/Meshes/geometry_0.mesh
-      - Model/modern_chair/Textures
-      - Model/modern_chair/Textures/texture.png
-      - Model/modern_chair/modern_chair.prefab
-      - Model/modern_lamp/.hidden
-      - Model/modern_lamp/.hidden/Material 1.ss_graph
-      - Model/modern_lamp/Materials/Material 1.mat
-      - Model/modern_lamp/Meshes
-      - Model/modern_lamp/Meshes/geometry_0.mesh
-      - Model/modern_lamp/Textures
-      - Model/modern_lamp/Textures/texture.png
-      - Model/modern_lamp/modern_lamp.prefab
-      - Model/modern_table
-      - Model/modern_table/.hidden
-      - Model/modern_table/.hidden/Material 1.ss_graph
-      - Model/modern_table/Materials/Material 1.mat
-      - Model/modern_table/Meshes/geometry_0.mesh
-      - Model/modern_table/Textures
-      - Model/modern_table/Textures/texture.png
-      - Model/modern_table/modern_table.prefab
       - Prefab/cozy_cabinet.prefab
       - Prefab/cozy_sofa.prefab
-      - Prefab/cozy_table.prefab
-      - Prefab/gothic_chair.prefab
-      - Prefab/gothic_lamp.prefab
-      - Prefab/gothic_table.prefab
-      - Prefab/modern_chair.prefab
-      - Prefab/modern_lamp.prefab
-      - Prefab/modern_table.prefab
       - Remote Service Gateway.lspkg/Helpers
       - Remote Service Gateway.lspkg/Helpers/AudioProcessor.ts
       - Remote Service Gateway.lspkg/Helpers/DynamicAudioOutput.ts
@@ -175,7 +115,7 @@ CollapsedEntities:
       - Remote Service Gateway.lspkg/package.native
       - Render
       - Scene.scene
-      - Scenes.prefab
+      - Scripts
       - Scripts/APIKeyHint.ts
       - Scripts/ASRQueryController.ts
       - Scripts/AddItem.js
@@ -775,7 +715,6 @@ CollapsedEntities:
       - Textures/Microphone.png
       - Textures/NoInternetAlert.png
       - Textures/NoInternetWarning.mat
-      - Visuals
       - Visuals/AI Visual
       - Visuals/AI Visual/Animations
       - Visuals/AI Visual/Animations/BaseLayer.animationMixerLayer
@@ -800,10 +739,4 @@ CollapsedEntities:
       - Visuals/Image_0.png
       - Visuals/Plane.mesh
       - Visuals/image_unlit.ss_graph
-      - gothic_lamp.prefab
-      - gothic_table.prefab
-      - modern_chair 2.prefab
-      - modern_chair.prefab
-      - modern_lamp.prefab
-      - modern_table.prefab
   options: 4
